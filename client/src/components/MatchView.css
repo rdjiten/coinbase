@@ -1,0 +1,31 @@
+.match-view {
+  padding: 20px;
+  font-family: monospace;
+}
+
+.trade-section {
+  margin-bottom: 30px;
+}
+
+.trade-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.trade-table th,
+.trade-table td {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.trade-table thead {
+  background-color: #f8f8f8;
+  font-weight: bold;
+}
+
+.even-row {
+  background-color: #f4f4f4;
+}

@@ -1,0 +1,17 @@
+.container {
+  max-width: 1400px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.views-container {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+h1 {
+  text-align: center;
+}

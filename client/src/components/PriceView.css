@@ -1,0 +1,62 @@
+.order-book-container {
+  font-family: monospace;
+  padding: 20px;
+}
+
+.order-book {
+  margin-bottom: 30px;
+}
+
+.order-book-table {
+  display: flex;
+  gap: 40px;
+}
+
+.order-book-column {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.column-header {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.bid-header {
+  color: green;
+}
+
+.ask-header {
+  color: red;
+}
+
+.order-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 8px;
+  transition: background-color 0.2s ease;
+}
+
+.order-row.even {
+  background-color: #f5f5f5;
+}
+
+.price {
+  width: 70px;
+  text-align: right;
+}
+
+.size {
+  width: 60px;
+  text-align: right;
+}
+
+.bid-price {
+  color: green;
+}
+
+.ask-price {
+  color: red;
+}
